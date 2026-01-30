@@ -104,11 +104,9 @@
 
   .movie-card {
     @apply bg-dark-100 p-5 rounded-2xl shadow-inner shadow-light-100/10;
-    width: 300px;
 
     & img {
       @apply rounded-lg h-auto w-full;
-      aspect-ratio: 2/3;
     }
 
     & h3 {
@@ -162,4 +160,8 @@
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+.movie-poster {
+  max-height: 300px;
 }
